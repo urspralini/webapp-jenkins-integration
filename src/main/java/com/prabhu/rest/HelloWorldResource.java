@@ -16,7 +16,7 @@ public class HelloWorldResource {
 
   @GET
   public String greeting(@QueryParam("name") String name){
-    if(name == null) return "Hello World!!!!";
+    if(name == null) return "Hello World";
     else return "Hello " + name;
   }
 
